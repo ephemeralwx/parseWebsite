@@ -41,4 +41,4 @@ def fetch_body_text_api():
         return jsonify({'text': f'Unexpected error: {e}', 'word_count': 0, 'char_count': 0})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
